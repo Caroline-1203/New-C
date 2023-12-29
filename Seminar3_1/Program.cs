@@ -29,8 +29,8 @@ bool FindNumber(int num, int[] list)
             return true;
         }
     }
-        return false;
-    
+    return false;
+
 }
 if (FindNumber(number, array))
 {
@@ -41,14 +41,14 @@ else
     Console.WriteLine("Нет");
 }
 
-void PrintArray(int [] col)
+void PrintArray(int[] col)
 {
     int count = col.Length;
     int position = 0;
-    while(position < count)
+    while (position < count)
     {
-    Console.Write(col[position] + " ");
-    position++;
-}
+        Console.Write(col[position] + " ");
+        position++;
+    }
 }
 
